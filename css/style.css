@@ -6,3 +6,35 @@ body {
 h1 {
   font-size: 50px;
 }
+
+em {
+  color: orange;
+  font-style: normal;
+}
+
+section {
+  display: flex;
+}
+
+.hero {
+  width: 50%;
+  padding: 2%;
+}
+
+.hero img {
+  width: 80%;
+}
+
+.link-button {
+  text-decoration: none;
+  background: rgb(247, 202, 118);
+  background: linear-gradient(
+    113deg,
+    rgba(247, 202, 118, 1) 0%,
+    rgba(242, 31, 43, 1) 100%
+  );
+  color: white;
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
